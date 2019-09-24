@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="../styling/form.css" />
     <link rel="stylesheet" href="../styling/nav.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="utf-8" />
-    <title>nav</title>
+    href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+    rel="stylesheet"
   </head>
   <body>
     <div id="wrapper">
-      <div id="info">
+      <!-- <div id="info">
         <div id="info-content">
           <h1><strong>Torbot Tickets </strong>(Working Title)</h1>
           <p>Events and Tickets Collective</p>
-        </div>
+        </div> -->
+      <div class="content">
+        <label for="logo" class="logo"></label>
+        <form>
+          <div class="group">
+            <label>Name</label>
+            <input type="text" />
+          </div>
+          <div class="group">
+            <label>Email</label>
+            <input type="email" />
+          </div>
+          <div class="group">
+            <label>Password</label>
+            <input type="password" />
+          </div>
+          <div class="group">
+            <label>City</label>
+            <input type="text" />
+          </div>
+          <button class="primary"><strong>Signup</strong></button>
+        </form>
+        <p class="footer">Already have an account? <a href="">Login</a></p>
       </div>
 
       <input type="checkbox" id="menu" name="menu" class="menu-checkbox" />
@@ -43,6 +65,5 @@
         </ul>
       </div>
     </div>
-    <!-- #wrapper -->
   </body>
 </html>

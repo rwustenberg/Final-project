@@ -1,0 +1,78 @@
+.content {
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+  grid-row-gap: 15px;
+  font-family: "Varela Round", sans-serif;
+  width: 25%;
+  height: 80vh;
+  border: #666 1px solid;
+  background-color: #666;
+  text-align: right;
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 33%;
+  margin-bottom: 15%;
+  opacity: 0.75;
+  color: black;
+}
+.logo {
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  border: black 3px dotted;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 37%;
+  margin-bottom: 10px;
+  background: url(../public/clipartwiki.com-ticket-clipart-341712.png) 50% 50% /
+    60px 60px no-repeat;
+}
+.logo:hover {
+  border-color: orange !important;
+  transition: all 0.4s ease 0s;
+}
+
+.group {
+  font-size: 1.3em;
+  padding: 12px;
+  margin: 10px;
+  margin-left: 35px;
+}
+.footer {
+  margin: 10%;
+  text-align: center;
+}
+input {
+  border-radius: 4px;
+  height: 2em;
+  cursor: pointer;
+}
+button {
+  border: none;
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  background-color: #282526;
+  margin-right: 35%;
+  border-radius: 4px;
+  color: #666;
+  font-family: "Varela Round", sans-serif;
+  cursor: pointer;
+  margin-top: 3%;
+  font-size: 15px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  box-shadow: 2px 2px 2px black;
+  opacity: 1 !important;
+}
+
+button:hover {
+  background: #666;
+  color: #282526 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
