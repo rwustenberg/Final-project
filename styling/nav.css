@@ -42,12 +42,17 @@ label.menu-toggle {
   height: 50px;
   border: black 3px dotted;
   border-radius: 50%;
-  margin-left: 35%;
+  margin-left: 36%;
   margin-top: 30px;
   margin-bottom: 10px;
   background: url(../public/clipartwiki.com-ticket-clipart-341712.png) 50% 50% /
     60px 60px no-repeat;
 }
+.logo:hover {
+  border-color: orange !important;
+  transition: all 0.4s ease 0s;
+}
+
 ul li label {
   font-family: "Varela Round", sans-serif;
   display: block;
@@ -55,8 +60,6 @@ ul li label {
   padding: 0 20px;
   line-height: 60px;
   text-decoration: none;
-  color: #000;
-  &: hover;
   color: #666;
 }
 
@@ -68,24 +71,21 @@ ul li label:hover {
 .menu-checkbox {
   display: none;
 }
-/* hide navigation icon for sublabels */
-.menu .menu label .menu-toggle {
-  background: none;
-}
+
 /* fade in checked menu */
 .menu-checkbox:checked + .menu {
   transform: translate3d(0, 0, 0);
 }
 
 /* for show */
-html,
+/* html,
 body {
   height: 100%;
   font-family: "Varela Round", sans-serif;
 }
 body {
-  background: url(http://69-degrees.co.uk/wp-content/uploads/2018/10/Crowd-at-Gig-courtesy-DHP-Family.jpg)
-    50% 50% / cover;
+  background: url(../public/tajmia-loiacono-ABKuhgx0_iU-unsplash.jpg) 50% 50% /
+    cover;
 }
 p {
   margin-bottom: 15px;
@@ -116,4 +116,4 @@ h1 {
   display: inline-block;
   strong-display: block;
   font-size: 26px;
-}
+} */

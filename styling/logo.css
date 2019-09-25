@@ -4,11 +4,12 @@
   height: 50px;
   border: black 3px dotted;
   border-radius: 50%;
-  margin-left: 75px;
+  margin-left: 36%;
   margin-top: 30px;
   margin-bottom: 10px;
   background: url(../public/clipartwiki.com-ticket-clipart-341712.png) 50% 50% /
     60px 60px no-repeat;
+  position: absolute;
 }
 
 .logo:hover {
