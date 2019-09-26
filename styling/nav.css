@@ -37,10 +37,9 @@ label.menu-toggle {
     50% 50% / 25px 25px no-repeat;
 }
 .logo-container {
-  margin-left: 30%;
-  margin-top: 10%;
-  position: relative;
-  padding-bottom: 40%;
+  margin-left: -10px;
+  */position: relative;
+  padding-bottom: 60%;
 }
 
 ul li label {
