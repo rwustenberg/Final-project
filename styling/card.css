@@ -87,8 +87,8 @@ button:hover {
 }
 .logo-wrapper {
   position: relative;
-  left: 70px;
-  top: 33px;
+  left: -50px;
+  top: -19px;
   opacity: 0.2;
   transform: scale(1.75);
 }
